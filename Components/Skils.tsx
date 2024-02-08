@@ -38,6 +38,7 @@ export const aboutData = [
     info: [
       {
         title: "Programming Languages",
+        stage: "",
         icons: [
           <FaHtml5 />,
           <FaCss3 />,
@@ -52,6 +53,8 @@ export const aboutData = [
       },
       {
         title: "Frame Works",
+        stage: "",
+
         icons: [
           <SiFlutter />,
           <FaBootstrap />,
@@ -64,10 +67,14 @@ export const aboutData = [
       },
       {
         title: "Database",
+        stage: "",
+
         icons: [<SiMysql />, <SiMongodb />],
       },
       {
         title: "Tools",
+        stage: "",
+
         icons: [
           <FaGit />,
           <FaGithub />,
@@ -85,26 +92,32 @@ export const aboutData = [
       {
         title: "Hackerrank Certificates",
         stage: "2021",
+        icons: [],
       },
       {
         title: "Code Fest v2.0",
         stage: "2022",
+        icons: [],
       },
       {
         title: "Code Gladiators",
         stage: "2023",
+        icons: [],
       },
       {
         title: "Google Cloud Badges",
         stage: "2023",
+        icons: [],
       },
       {
         title: "Microsoft Learn Badges, Trophies",
         stage: "2023 - 2024",
+        icons: [],
       },
       {
         title: "Leetcode Badges",
         stage: "2024",
+        icons: [],
       },
     ],
   },
@@ -114,10 +127,12 @@ export const aboutData = [
       {
         title: "Teaching Assistant - Data Structure",
         stage: "2022 - 2023",
+        icons: [],
       },
       {
         title: "Teaching Assistant - PHP Core",
         stage: "2023",
+        icons: [],
       },
     ],
   },
