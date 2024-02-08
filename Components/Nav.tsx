@@ -44,6 +44,9 @@ const Nav = ({ openNav }: NavProps) => {
         <a href="#projects" className="nav-link">
           Projects
         </a>
+        <a href="#profiles" className="nav-link">
+          Profiles
+        </a>
         <a href="#contact" className="nav-link">
           Contact
         </a>

@@ -9,6 +9,7 @@ import Skils from "@/Components/Skils";
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
+import Profiles from "@/Components/Profiles";
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
@@ -60,6 +61,8 @@ const HomePage = () => {
           <Skils />
           {/* Projects */}
           <Projects />
+          {/* Profiles */}
+          <Profiles />
           {/* Footer */}
           <Footer />
         </div>
