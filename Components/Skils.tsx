@@ -121,15 +121,15 @@ export const aboutData = [
       },
     ],
   },
-  {
-    title: "credentials",
-    info: [
-      {
-        // title: "B.Tech In Computer Science - Darshan University",
-        // stage: "2025",
-      },
-    ],
-  },
+  // {
+  //   title: "credentials",
+  //   info: [
+  //     {
+  //       // title: "B.Tech In Computer Science - Darshan University",
+  //       // stage: "2025",
+  //     },
+  //   ],
+  // },
 ];
 
 // components
