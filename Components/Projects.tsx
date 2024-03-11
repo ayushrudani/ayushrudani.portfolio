@@ -6,31 +6,37 @@ export const projectsData = [
     title: "project 1",
     animationTime: 300,
     img: "/images/p1.jpg",
+    redirect: "",
   },
   {
     title: "project 2",
     animationTime: 600,
     img: "/images/p2.jpg",
+    redirect: "",
   },
   {
-    title: "project 3",
+    title: "Beat Store Website",
     animationTime: 900,
     img: "/images/p3.jpg",
+    redirect: "https://ayushrudani.github.io/beatstore.github.io/",
   },
   {
-    title: "project 4",
+    title: "Library management system",
     animationTime: 300,
     img: "/images/p4.jpg",
+    redirect: "https://ayushrudani.github.io/library.html",
   },
   {
-    title: "project 5",
+    title: "Quiz WeSite",
     animationTime: 600,
     img: "/images/p5.jpg",
+    redirect: "https://imprisonable-lifebo.000webhostapp.com/std6.php",
   },
   {
-    title: "project 6",
+    title: "Small Projects",
     animationTime: 900,
     img: "/images/p6.jpg",
+    redirect: "https://ayushrudani.github.io/mywork/index.html",
   },
 ];
 
@@ -45,19 +51,26 @@ const Projects = () => {
       </p>
       <div className="w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem]">
         {projectsData.map((project, index) => (
-          <div
-            data-aos="fade-up"
-            data-aos-delay={project.animationTime}
-            key={`right-package${index}`}
-            className="project-card"
+          <a
+            href={project.redirect}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative"
           >
-            <Image
-              src={project.img}
-              layout="fill"
-              alt={project.title}
-              className="object-contain"
-            />
-          </div>
+            <div
+              data-aos="fade-up"
+              data-aos-delay={project.animationTime}
+              key={`right-package${index}`}
+              className="project-card"
+            >
+              <Image
+                src={project.img}
+                layout="fill"
+                alt={project.title}
+                className="object-contain"
+              />
+            </div>
+          </a>
         ))}
       </div>
     </div>
