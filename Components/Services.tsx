@@ -26,7 +26,7 @@ export const servicesData = [
     animationTime: 400,
     title: "Backend",
     description:
-      "In Backend Technologies I use .NET Web API, Node.js,, MongoDB, MySQL, Firebase, and many more. I can create a RESTful API, Authentication with JWT, and Authorization, and also can create a full-stack application like Library Management System, Quiz App, Admin Panel, and many more.",
+      "In Backend Technologies I use .NET Web API, Node.js, MongoDB, MySQL, Firebase, and many more. I can create a RESTful API, Authentication with JWT, and Authorization, and also can create a full-stack application like Library Management System, Quiz App, Admin Panel, and many more.",
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ export const servicesData = [
     animationTime: 200,
     title: "Fullstack",
     description:
-      "I can create a full-stack application using React Js + .NET, .NET MVC, Flutter, Java Swings and many more. I can create a full-stack application like E-commerce, Social Media, Blog, Admin Pannel, Quiz App and many more.I use OpenAI API key to boost my fullstack projects.",
+      "I can create a full-stack application using React Js + .NET, .NET MVC, Flutter, Java Swings and many more. I created a full-stack application like E-commerce, Social Media, Blog, Admin Pannel, Quiz App and many more.I use OpenAI API key to boost my fullstack projects.",
   },
 ];
 
