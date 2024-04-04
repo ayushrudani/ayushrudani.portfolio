@@ -1,18 +1,18 @@
 import Image from "next/image";
-import React from "react";
+import React, { use } from "react";
 
 export const projectsData = [
   {
-    title: "project 1",
+    title: "Ruds Blog",
     animationTime: 300,
     img: "/images/p1.jpg",
-    redirect: "",
+    redirect: "https://ruds-blog.vercel.app/",
   },
   {
-    title: "project 2",
+    title: "QuizApp",
     animationTime: 600,
     img: "/images/p2.jpg",
-    redirect: "",
+    redirect: "QuizApp",
   },
   {
     title: "Beat Store Website",
@@ -52,7 +52,11 @@ const Projects = () => {
       <div className="w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem]">
         {projectsData.map((project, index) => (
           <a
-            href={project.redirect}
+            onClick={() => {
+              if (project.redirect) {
+                window.open(project.redirect);
+              }
+            }}
             target="_blank"
             rel="noopener noreferrer"
             className="relative"
