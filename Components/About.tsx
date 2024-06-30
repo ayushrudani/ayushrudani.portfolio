@@ -37,7 +37,9 @@ const About = () => {
               technologies..
             </p>
           </div>
-          <button
+          <a
+            href="https://drive.google.com/file/d/12o5UO-jXHwQ0N-HgEvDB5mEQ1kt07kAi/view?usp=sharing"
+            target="blank"
             data-aos="fade-right"
             data-aos-delay="200"
             data-aos-duration="1500"
@@ -45,7 +47,7 @@ const About = () => {
           >
             <p>Download CV</p>
             <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] " />
-          </button>
+          </a>
         </div>
         <div
           data-aos="fade-left"

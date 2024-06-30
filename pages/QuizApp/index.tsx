@@ -38,7 +38,9 @@ const QuizApp = () => {
               a dark mode and light mode.
             </p>
           </div>
-          <button
+          <a
+            href="https://drive.google.com/file/d/1HWMrvjFBwBm4PYFWQWI71k_SbWxismOV/view?usp=sharing"
+            target="blank"
             data-aos="fade-right"
             data-aos-delay="200"
             data-aos-duration="1500"
@@ -46,7 +48,7 @@ const QuizApp = () => {
           >
             <p>Download Quiz App</p>
             <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] " />
-          </button>
+          </a>
         </div>
         <div
           data-aos="fade-left"

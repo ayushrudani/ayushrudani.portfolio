@@ -42,7 +42,7 @@ const Hero = () => {
             className="mt-[2rem] flex-col scroll-py-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6"
           >
             <a
-              href="https://drive.google.com/file/d/1hL_FI7MyD-w4VSq-AMrNNdXfHLehyUbE/view?usp=sharing"
+              href="https://drive.google.com/file/d/12o5UO-jXHwQ0N-HgEvDB5mEQ1kt07kAi/view?usp=sharing"
               target="blank"
               className="px-[2rem] hover:bg-transparent  hover:text-yellow-400 hover:border-yellow-400 hover:border-2 transition-all duration-300 py-[1rem] text-[18px] font-bold uppercase bg-yellow-400 text-black flex items-center space-x-2 z-[10000]"
             >
